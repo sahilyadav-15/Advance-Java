@@ -58,6 +58,17 @@
             margin-bottom: 14px;
             text-align: center;
         }
+
+        .link-row {
+            margin-top: 16px;
+            text-align: center;
+        }
+
+        .link-row a {
+            color: #1565c0;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +93,10 @@
 
             <button type="submit">Login</button>
         </form>
+
+        <div class="link-row">
+            <a href="<%= request.getContextPath() %>/register.jsp">Create a new account</a>
+        </div>
     </div>
 </body>
 </html>
